@@ -73,7 +73,7 @@ $( document ).ready(function() {
     // Function that displays the gifs
     function displayGifs(){
         var action = $(this).attr("data-name");
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=00IrDsXH8cqG2XVQLoEsQi7EuM8cO3Ud&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=00IrDsXH8cqG2XVQLoEsQi7EuM8cO3Ud&limit=10";
     
         $.ajax({
             url: queryURL,
